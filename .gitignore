@@ -1,0 +1,121 @@
+# -------------------------------------------------
+# Python / Flask (backend)
+# -------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pth
+*.log
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+*.manifest
+*.spec
+*.sqlite3
+*.sqlite3-journal
+.DS_Store
+
+# Model files – **do NOT commit large binaries**
+backend/brain_tumor_model.pth
+backend/*.pth
+backend/*.h5
+backend/*.weights
+backend/*.ckpt
+backend/*.pb
+
+# Temporary uploaded images
+backend/temp_image.jpg
+backend/*.jpg
+backend/*.png
+backend/*.jpeg
+
+# -------------------------------------------------
+# Node / React (frontend)
+# -------------------------------------------------
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.parcel-cache
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/public/build/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# -------------------------------------------------
+# Jupyter notebooks (checkpoints, outputs)
+# -------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# -------------------------------------------------
+# Misc
+# -------------------------------------------------
+*.DS_Store
+*.bak
+*.tmp
+*.temp
+*.cache
+*.log
+*.sqlite
+*.db
+*.sqlite3
+*.sqlite3-journal

@@ -3,8 +3,11 @@
 An **AI-powered web application** that detects and classifies brain tumors from MRI scans using deep learning. Supports **4 tumor types**: Glioma, Meningioma, Pituitary, and Normal (no tumor).
 
 ![Brain Tumor Detection](https://img.shields.io/badge/Project-Brain%20Tumor%20Detection-blue)
+
 ![Frontend](https://img.shields.io/badge/Frontend-React-green)
+
 ![Backend](https://img.shields.io/badge/Backend-Flask-orange)
+
 ![Model](https://img.shields.io/badge/Model-ResNet18%20%7C%20CNN-yellow)
 
 ---
